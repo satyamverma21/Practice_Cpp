@@ -40,8 +40,7 @@ int main()
 {
     base b(5 ,90);
     sub a(5, 6);
-    
-    // a.p();
+
     base *ptr = &a ;
     ptr->p();
 
